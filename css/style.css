@@ -1,5 +1,84 @@
+/* Global style */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+.text-white{
+    color: #fff;
+}
+.text-semi-gray{
+    color: rgba(255, 255, 255, 0.65);
+}
+.text-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header{
+    background: #000000;
+}
+
+/*------------- Navigation section style-------------- */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    padding: 10px 0;
+}
+.left-nav a{
+    color: #E6533C;
+    text-decoration: none;
+    font-weight:800;
+}
+.right-nav ul{
+    /* display: flex; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 40px;
+}
+.right-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.right-nav ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff;
+    margin-right: 10px;
+    padding: 7px 20px;
+}
+.right-nav ul li a:hover{
+    background: #E6533C;
+    border-radius: 45px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    /* font-family: 'Miama', sans-serif; */
+    font-family: "Inter", sans-serif;
+}
+
+                                                
