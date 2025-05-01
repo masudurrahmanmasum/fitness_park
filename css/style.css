@@ -24,6 +24,19 @@ html {
 header{
     background: #000000;
 }
+/* -------------text title--------------------------- */
+.habit-section{
+    background: #000000;
+    padding: 70px;
+}
+.section-title{
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 2.3rem;
+}
+.title-section p{
+    line-height: 25px;
+}
 
 /*------------- Navigation section style-------------- */
 header{
@@ -153,10 +166,36 @@ header{
     margin-right: 10px;
 }
 
+/*------------------ habit section style----------------------- */
 
-
-
-
+.habit-section .title-section{
+    text-align: center;
+}
+.habit-card-section{
+    width: 85%;
+    margin: auto;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 50px 0;
+}
+.habit-card img{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+}
+.habit-card{
+    text-align: center;
+    gap: 40px;
+}
+.habit-card h4{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+.habit-card p{
+   font-weight: 400;
+}
 
 
 
