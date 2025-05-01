@@ -71,14 +71,20 @@ header{
     width: 85%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .hero-description{
     flex-basis: 50%;
 }
+.hero-image{
+    flex-basis: 50%;
+    position: relative;
+}
 .hero-image img{
     height: 90vh;
+    float: right;
+    margin-right: 60px;
 }
 .hero-txt-box h1{
     font-size: 4.2rem;
@@ -114,7 +120,38 @@ header{
     border: 1px solid transparent;
     transition: 0.2s;
 }
+.hero-card1{
+    position: absolute;
+    right: 300px;
+    backdrop-filter: blur(10px);
+    background: rgba(173, 173, 173, 0.2);
+    border-radius: 13px;
+    bottom: 50px;
+}
+.hero-card2{
+    position: absolute;
+    top: 130px;
+    right: -50px;
+    backdrop-filter: blur(10px);
+    background: rgba(173, 173, 173, 0.2);
+    border-radius: 13px;
 
+}
+.card_body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+
+}
+.card-circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: #E6533C;
+    margin-right: 10px;
+}
 
 
 
