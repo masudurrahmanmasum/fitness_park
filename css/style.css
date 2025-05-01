@@ -21,7 +21,7 @@ html {
     color: rgba(255, 255, 255, 0.5);
 }
 
-header{
+header, .run-mile-section{
     background: #000000;
 }
 /* -------------text title--------------------------- */
@@ -123,7 +123,6 @@ header{
     border: 1px solid #fff;
     cursor: pointer;
     font-size: .9rem;
-    
 }
 .hero-btn button:nth-child(2){
     margin-left: 10px;
@@ -197,11 +196,53 @@ header{
    font-weight: 400;
 }
 
+/* --------------run an extra miles section style ----------------------- */
+.run-main-div{
+    width: 85%;
+    margin: auto;
+    background: #222222;
+    border-radius: 15px;
+}
+.run-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 45px;
+}
+.run-left-text{
+    flex-basis: 60%;
+    margin-right: 100px;
+}
+.run-left-text h1{
+    font-size: 2.9rem;
+}
+.run-left-text p{
+    margin-top: 20px;
+    line-height: 25px;
+}
 
+.run-left-text button{
+    padding: 14px 42px;
+    background: transparent;
+    color: #fff;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 20px;
+}
 
-
-
-
-
-
+.run-left-text button:hover{
+    background: #E6533C;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+.run-right-img{
+    flex-basis: 40%;
+}
+.run-right-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
                                                 
